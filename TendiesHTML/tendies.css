@@ -3,3 +3,7 @@
         width: 50%;
     }
 }
+
+.btn.btn-secondary.btn-lg.p-3{
+     margin-left: 300px;
+}
