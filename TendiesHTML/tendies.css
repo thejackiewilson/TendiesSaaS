@@ -5,5 +5,10 @@
 }
 
 .btn.btn-secondary.btn-lg.p-3{
-     margin-left: 300px;
+    margin-left: 350px;
+}
+
+.d-flex.justify-content-between.d-none.d-lg-block{
+    margin-left: 100px;
+    padding-top: 50px;
 }
