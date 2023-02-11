@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="tendies.css">
   </head>
   <body>
+
     <!--- Nav --->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
         <div class="container">
@@ -47,7 +48,9 @@
                         Tendies is here to make you, your employees, and customers <span class="text-success">happier.</span>. <br><br>
                         Learn more about what an ERP system can do for your restaurant. <span class="text-success"> This is only the beginning of a new era.</span>
                     </p>
-                    <img class ="img-fluid w-50 l-50 p-5" src="bar.jpg" alt=""/>
+                    <div class="d-flex justify-content-between d-none d-lg-block">
+                        <img class ="img-fluid " src="bar.jpg" alt=""/>
+                    </div>
             </div>
             <button class="btn btn-secondary btn-lg p-3 ">Click Here For More</button>
         </div>
@@ -66,55 +69,146 @@
         </div>
     </section>
 
-       <!--Boxes-->
-    <section class="p-5">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md">
-                    <div class="card card-body bg-dark text-center text-light justify-content-between p-1">
-                        <div class="">
-                            <div class="h1">
-                                <i class="bi bi-info"></i>
-                                <p> Tendies is dedicated to<span class="text-success"> accurate information</span>
-                                </p> 
+         <!--Boxes-->
+         <section class=" bg-success p-5" text-sm-start>
+            <div class="container">
+                <div class="row text-center g-4">
+                    <div class="col-md">
+                        <div class="card bg-dark text-light">
+                            <div class="card-body text-center">
+                                <div class="h1 mb-3">
+                                    <div class="h1 mb-3">
+                                        <i class="bi bi-info"></i>
+                                    </div>
+                                    <h3 class="card-title">
+                                        Information
+                                    </h3>
+                                    <p class="card-text">
+                                        Tendies is dedicated to<span class="text-success"> accurate information</span>.</p> 
+                                    </p>
+                                    <a href="#" class="btn btn-success"> See Our Data Process</a>
+                                </div>
                             </div>
-                            <div class="col-md">
-                                <div class="card bg-dark text-light">
-                                   <div class="card-body text-center">
-                                       <div class="h1">
-                                           <i class="bi bi-binoculars-fill"></i>
-                                           <p> We are always<span class="text-success"> scouting for you and looking for improvements</span>.
-                                           </p>
-                                       </div>
-                                   </div>
-                           </div>
-                           <div class="col-md">
-                                <div class="card bg-dark text-light">
-                                   <div class="card-body text-center">
-                                       <div class="h1">
-                                           <i class="bi bi-calendar2-check-fill"></i>
-                                           <p> Our teams will always provide you<span class="text-success"> 24/7 Support</span>.
-                                           </p>
-                                       </div>
-                                   </div>
-                                   
-                           </div>
-                           <div class="col-md">
-                                <div class="card bg-dark text-light">
-                                   <div class="card-body text-center">
-                                       <div class="h1">
-                                           <i class="bi bi-cash-stack"></i>
-                                           <p>You're focus should be on being <span class="text-success"> efficient and saving money at every angle</span>. Tendies can do that for you.
-                                           </p>
-                                       </div>
-                                   </div>
-                           </div>
-                        </div>  
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card bg-dark text-light">
+                            <div class="card-body text-center">
+                                <div class="h1 mb-3">
+                                    <div class="h1 mb-3">
+                                        <i class="bi bi-binoculars-fill"></i>
+                                    </div>
+                                    <h3 class="card-title">
+                                        Awareness
+                                    </h3>
+                                    <p class="card-text">
+                                        Non-stop<span class="text-success">  improvement and consultation</span>.</p> 
+                                    </p>
+                                    <a href="#" class="btn btn-success"> Our Noteable Users</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="col-md">
+                            <div class="card bg-dark text-light">
+                                <div class="card-body text-center">
+                                    <div class="h1 mb-3">
+                                        <div class="h1 mb-3">
+                                            <i class="bi bi-calendar2-check-fill"></i>
+                                        </div>
+                                        <h3 class="card-title">
+                                            Customer Support
+                                        </h3>
+                                        <p class="card-text">
+                                            <p>Responsive & Quick<span class="text-success"> 24/7 customer support</span>. 
+                                        </p>
+                                        <a href="#" class="btn btn-success"> Chat With A Representative</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="col-md">
+                            <div class="card bg-dark text-light">
+                                <div class="card-body text-center">
+                                    <div class="h1 mb-3">
+                                        <div class="h1 mb-3">
+                                            <i class="bi bi-cash-stack"></i>
+                                        </div>
+                                        <h3 class="card-title">
+                                            Financials
+                                        </h3>
+                                        <p class="card-text">
+                                            <p> Afforadble prices allowing <span class="text-success"> efficieny and saving money</span>. 
+                                        </p>
+                                        <a href="#" class="btn btn-success"> Learn About Pricing</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+        <!--Learn More-->
+        <section id="learn" class="p-5">
+            <div class="container">
+                <div class="row align-items-center justisfy-content-between">
+                    <div class="col-md">
+                        <img src="datagathering.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md p-5">
+                        <h2>Why ERPs Are <span class="text-success">Essential</span>.</h2>
+                        <p class="lead">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <p class="lead">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <p class="lead">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <p class="lead">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <a href="#" class="btn btn-success mt-3">
+                            <i class="bi bi-chevron-right"> Read More</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="learn" class="p-5 bg-success">
+            <div class="container">
+                <div class="row align-items-center justisfy-content-between">
+                    <div class="col-md p-5 text-dark">
+                        <h2> Our data is<span class="text-light"> regenerative and responsive</span>.</h2>
+                        <p class="lead text-dark">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <p class="lead text-dark">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <p class="lead text-dark">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <p class="lead text-dark">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <a href="#" class="btn btn-dark mt-3">
+                            <i class="bi bi-chevron-right"> Read More</i>
+                        </a>
+                    </div>
+                    <div class="col-md">
+                        <img src="workingdata.jpg" class="img-fluid w-100" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
