@@ -12,3 +12,36 @@
     margin-left: 100px;
     padding-top: 50px;
 }
+
+.card {
+    width: fit-content;
+    height: fit-content;
+    padding-bottom: px;
+    position: relative;
+}
+
+.card-content {
+    position: absolute;
+    top: 0px;
+    left: auto;
+    right: auto;
+    bottom: 10px;
+}
+
+.card.bg-dark.text-light {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    max-height: 1000px;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    
+}
+
+.card-body.text-center {
+    max-width: 89.5;
+}
+
+.p.card-text {
+    justify-content: space-between;
+}
